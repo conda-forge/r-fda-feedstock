@@ -1,4 +1,4 @@
-{% set version = "2.4.8" %}
+{% set version = "2.4.8.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/fda_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/fda/fda_{{ version }}.tar.gz
-  sha256: 425b9ce2f145e258e9d9118177d5c3a80c61215bf5e750ecbf118607d7cf6958
+  sha256: ea54441ff77217af1af7b5d9694f6c66afc344fb9e3f0ab6ccea9fde829ca03c
 
 build:
   noarch: generic
-  number: 1002
+  number: 0
 
   rpaths:
     - lib/R/lib/
