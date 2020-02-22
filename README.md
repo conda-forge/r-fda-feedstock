@@ -3,25 +3,11 @@ About r-fda
 
 Home: http://www.functionaldata.org
 
-Package license: GPL (>= 2)
+Package license: GPL-2
 
 Feedstock license: BSD 3-Clause
 
-Summary: These functions were developed to support functional data analysis as described in
-Ramsay, J. O. and Silverman, B. W. (2005) Functional Data Analysis. New York: Springer.  They
-were ported from earlier versions in Matlab and S-PLUS.  An introduction appears
-in Ramsay, J. O., Hooker, Giles, and Graves, Spencer (2009) Functional Data Analysis
-with R and Matlab (Springer). The package includes data sets and script files working
-many examples including all but one of the 76 figures in this latter book.  Matlab
-versions of the code and sample analyses are no longer distributed through CRAN,
-as they were when the book was published.  For those, ftp from <http://www.psych.mcgill.ca/misc/fda/downloads/FDAfuns/>
-There you find a set of .zip files containing the functions and sample analyses,
-as well as two .txt files giving instructions for installation and some additional
-information. The changes from Version 2.4.1 are fixes of bugs in density.fd and
-removal of functions create.polynomial.basis, polynompen, and  polynomial. These
-were deleted because the monomial basis does the same thing and because there were
-errors in the code.
-
+Summary: These functions were developed to support functional data analysis as described in Ramsay, J. O. and Silverman, B. W. (2005) Functional Data Analysis. New York: Springer.  They were ported from earlier versions in Matlab and S-PLUS.  An introduction appears in Ramsay, J. O., Hooker, Giles, and Graves, Spencer (2009) Functional Data Analysis with R and Matlab (Springer). The package includes data sets and script files working many examples including all but one of the 76 figures in this latter book.  Matlab versions of the code and sample analyses are no longer distributed through CRAN, as they were when the book was published.  For those, ftp from <http://www.psych.mcgill.ca/misc/fda/downloads/FDAfuns/> There you find a set of .zip files containing the functions and sample analyses, as well as two .txt files giving instructions for installation and some additional information. The changes from Version 2.4.1 are fixes of bugs in density.fd and removal of functions create.polynomial.basis, polynompen, and polynomial. These were deleted because the monomial basis does the same thing and because there were errors in the code.
 
 
 
@@ -130,10 +116,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@dpryan79](https://github.com/dpryan79/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
