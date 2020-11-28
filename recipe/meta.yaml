@@ -26,9 +26,11 @@ requirements:
   host:
     - r-base
     - r-matrix
+    - r-fds
   run:
     - r-base
     - r-matrix
+    - r-fds
 
 test:
   commands:
