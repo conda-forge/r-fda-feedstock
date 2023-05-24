@@ -1,4 +1,4 @@
-{% set version = "6.0.5" %}
+{% set version = "6.1.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fda_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fda/fda_{{ version }}.tar.gz
-  sha256: 14445776fc65284cd6cae98e5b4dd14c2626d96db5f78c0fcc6aabce5419b8f1
+  sha256: e2818ecc0b78cb56b9b80fe21fc41502e49d58b57818ac52a70ba00d0f422515
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
