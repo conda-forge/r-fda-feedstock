@@ -1,4 +1,4 @@
-{% set version = "6.1.8" %}
+{% set version = "6.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fda_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fda/fda_{{ version }}.tar.gz
-  sha256: ef8d858a2879491aa2c441d171ba14462bf27852d16e8420fa49aab83f42c407
+  sha256: 39cbaa814af48b10132170502a28400f90d62cf45ed89dcdcc30054362aabe15
 
 build:
   merge_build_host: true  # [win]
