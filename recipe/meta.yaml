@@ -1,4 +1,4 @@
-{% set version = "6.2.0" %}
+{% set version = "6.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fda_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fda/fda_{{ version }}.tar.gz
-  sha256: 39cbaa814af48b10132170502a28400f90d62cf45ed89dcdcc30054362aabe15
+  sha256: 73ff60918267986b630cccda31beeb212fc5c7d6164e4cb3f7629d2583a76637
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
